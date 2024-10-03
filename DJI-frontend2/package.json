@@ -1,0 +1,49 @@
+{
+  "name": "dji-cloud-react",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/react": "latest",
+    "@emotion/react": "latest",
+    "@emotion/styled": "latest",
+    "@testing-library/jest-dom": "latest",
+    "@testing-library/react": "latest",
+    "@testing-library/user-event": "latest",
+    "framer-motion": "latest",
+    "mapbox-gl": "latest",
+    "mqtt": "^5.10.1",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-icons": "latest",
+    "react-map-gl": "latest",
+    "react-router-dom": "latest",
+    "react-scripts": "latest",
+    "reconnecting-websocket": "latest",
+    "vconsole": "latest",
+    "web-vitals": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
