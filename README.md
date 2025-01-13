@@ -11,7 +11,8 @@ The technologies I used for this project are:
 * MapBox
 * MQTT Broker
 * Redis
+* MySQL
   
-I am proud to tell that this code was actually tested on 4 different drones(M300, M350, Matrice 4E, and Matrice 4T) and the software is compatible with those. 
+I am proud to share that this code was successfully tested on four different drone models (M300, M350, Matrice 4E, and Matrice 4T) and is fully compatible with them.
 
-As caching system, I used Redis for the session handlers of the drones to be retained for 24 hours. Additionally, I used MySQL-8.0 in order to store informations about the drones, such as key IDs, serial numbers(which was a crucial piece of information, because the binding between the drone the Cloud API was based on the serial number of the drone), serial number of the batteries, payload information, different statuses of internal modules, etc.
+For caching, I implemented Redis to retain the drones' session handlers for 24 hours. Additionally, I utilized a MySQL 8.0 database running in a Docker container to store various details about the drones, including key IDs, serial numbers (a critical element since the binding between the drone and the Cloud API is based on the drone's serial number), battery serial numbers, payload information, statuses of internal modules, and more.
