@@ -20,3 +20,7 @@ For caching, I implemented Redis to retain the drones' session handlers for 24 h
 # Testing
 
 I am proud to share that this code was successfully tested on four different drone models (M300, M350, Matrice 4E, and Matrice 4T) and is fully compatible with them.
+
+# First insight
+
+![WhatsApp Image 2025-03-02 at 21 47 47_699703b6](https://github.com/user-attachments/assets/cb335238-af28-4bb3-97c6-9cc7dd90ce87)
